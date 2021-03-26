@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.container + .container {
+  margin-top: 20px;
+}
+
 .container img {
   width: 300px;
   height: 200px;
